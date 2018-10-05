@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://salifm.github.io/sitemap.xml
