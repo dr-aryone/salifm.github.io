@@ -1,3 +1,1 @@
-# salif-mehmed.github.io
-
-## Salif Mehmed
+[salifm.github.io](https://salifm.github.io/)
