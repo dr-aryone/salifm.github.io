@@ -1,0 +1,10 @@
+/* TEAM */
+	Developer: Salif Mehmed
+	Site: https://bit.ly/salifm
+	Twitter: @SalifMehmed
+	From: Bulgaria
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	IDE: Notepad++

@@ -1,0 +1,123 @@
+body,html{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    background-color:#171c28;
+    color:#dfdfef;
+}
+body ::selection,html ::selection{
+    color:#fff;
+    background:#007bff;
+}
+.d{
+    padding:50px 100px;
+    height:80vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -ms-flex-pack:distribute;
+    justify-content:space-around;
+    max-width:1440px;
+    margin:0 auto;
+}
+@media screen and (max-width:630px){
+    .d{
+        padding:50px 80px;
+    }
+}
+@media screen and (max-width:550px){
+    .d{
+        padding:30px 50px;
+    }
+}
+@media screen and (max-width:480px){
+    .d{
+        padding:20px 40px;
+    }
+}
+.dh,.dt{
+    font-size:2.5rem;
+}
+@media screen and (max-width:1024px){
+    .dh,.dt{
+        font-size:2.25rem;
+    }
+}
+@media screen and (max-width:768px){
+    .dh,.dt{
+        font-size:2rem;
+    }
+}
+@media screen and (max-width:550px){
+    .dh,.dt{
+        font-size:1.75rem;
+    }
+}
+@media screen and (max-width:360px){
+    .dh,.dt{
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:330px){
+    .dh,.dt{
+        font-size:1.4rem;
+    }
+}
+.dh{
+    font-weight:300;
+}
+.dt{
+    font-weight:300;
+    max-width:700px;
+}
+.f a{
+    position:relative;
+    display:inline-block;
+    color:#007bff!important;
+    text-transform:uppercase;
+    font-weight:700;
+    margin:0 15px;
+    outline:0;
+    font-size:.9rem;
+    display:inline;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+@media screen and (max-width:1024px){
+    .f a{
+        margin:0 10px;
+    }
+}
+@media screen and (max-width:330px){
+    .f a{
+       display: block;
+    }
+}
+.f a:after{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    height:1px;
+    background:#007bff;
+    content:'';
+    opacity:0;
+    -webkit-transition:height .3s,opacity .3s,-webkit-transform .3s;
+    transition:height .3s,opacity .3s,-webkit-transform .3s;
+    transition:height .3s,opacity .3s,transform .3s;
+    transition:height .3s,opacity .3s,transform .3s,-webkit-transform .3s;
+    -webkit-transform:translateY(-5px);
+    transform:translateY(-5px)
+}
+.f a:focus:after,.f a:hover:after{
+    height:2px;
+    border-radius:3px;
+    opacity:1;
+    -webkit-transform:translateY(0);
+    transform:translateY(0)
+}
