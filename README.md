@@ -1,0 +1,5 @@
+# gitstats
+
+```bash
+$ gitstats ./ date
+```
