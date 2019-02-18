@@ -2,8 +2,6 @@
 title: "SoloLearn Certificates"
 ---
 
-# SoloLearn Certificates
-
 <img src="/SoloLearn/cert/cert-1014-7499537.jpg" alt="HTML" class="iresimg" />
 <img src="/SoloLearn/cert/cert-1023-7499537.jpg" alt="CSS" class="iresimg" />
 <img src="/SoloLearn/cert/cert-1024-7499537.jpg" alt="JavaScript" class="iresimg" />
