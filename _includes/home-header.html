@@ -1,0 +1,64 @@
+{% if site.style == 'dark' %}
+  {% assign icon_color = "#ffffff" %}
+{% else %}
+  {% assign icon_color = "#24292e" %}
+{% endif %}
+
+{% assign content = page.content | strip_newlines %}
+
+{% assign posts_total = site.posts | size %}
+
+{% assign user = site.github.owner %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ user.name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css" />
+    <link rel="author" href="https://salifm.github.io/humans.txt" />
+    <link rel="canonical" href="https://salifm.github.io/" />
+    <meta name="description" content="Salif Mehmed - 19 year old boy. Studies Software Engineering. Love Java and Linux" />
+    <meta name="keywords" content="Salif Mehmed, salifm, programmer, developer, coder, Салиф Мехмед, програмист" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Salif Mehmed" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-120435360-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120435360-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-120435360-4');
+    </script>
+    <script type="application/ld+json">
+      {
+          "@context": "http://www.schema.org",
+          "@type": "WebSite",
+          "name": "Salif Mehmed - personal website",
+          "url": "https://salifm.github.io"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Salif Mehmed",
+          "url": "https://salifm.github.io",
+          "sameAs": [
+              "https://www.facebook.com/salif.mehmed",
+              "https://www.instagram.com/salif.mehmed",
+              "https://twitter.com/SalifMehmed",
+              "https://plus.google.com/102216411213478667575"
+          ]
+      }
+    </script>
+  </head>
+  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
