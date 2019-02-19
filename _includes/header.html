@@ -7,12 +7,13 @@
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.language }}">
   <head>
     <meta charset="utf-8" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css" />
+    <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="Salif, Mehmed, salifm, programmer, developer, coder" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Salif Mehmed" />
