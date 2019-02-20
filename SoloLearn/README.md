@@ -1,3 +1,9 @@
+---
+title: "SoloLearn"
+language: en
+description: Salif Mehmed - SoloLearn
+comments: false
+---
 # SoloLearn
 
 [https://salifm.github.io/SoloLearn/](https://salifm.github.io/SoloLearn/)
@@ -9,9 +15,6 @@
 
 ## Link to my SoloLearn profile
 [www.sololearn.com/Profile/7499537/](https://www.sololearn.com/Profile/7499537/)
-
-## Certificates
-[Certificates](https://salifm.github.io/SoloLearn/cert/)
 
 # Codes
 
