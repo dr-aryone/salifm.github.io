@@ -2,6 +2,7 @@
 title: "SoloLearn Certificates"
 language: en
 description: SoloLearn Certificates
+comments: true
 ---
 
 <img src="/SoloLearn/cert/cert-1014-7499537.jpg" alt="Salif Mehmed - HTML certificate - SoloLearn" class="iresimg" />
