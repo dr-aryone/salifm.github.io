@@ -24,19 +24,19 @@ projects:
   #   - stars
   limit: 12
   exclude:
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
 social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: salif.mehmed
   # linkedin: your_username
   # medium: @your_username
   # stackoverflow: your_user_id
   twitter: SalifMehmed
-  # youtube: your_username
+  youtube: UCRqcpqHEwDIY_VotmhQpoeQ
 
 topics:
   - name: Java
