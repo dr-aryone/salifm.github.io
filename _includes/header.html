@@ -3,16 +3,15 @@
 {% else %}
   {% assign icon_color = "#24292e" %}
 {% endif %}
-{% assign content = page.content | strip_newlines %}
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
 <!DOCTYPE html>
-<html lang="{{ page.language }}">
+<html lang="{{ page.language }}" class="height-full">
   <head>
     <meta charset="utf-8" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css" />
+    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css" />
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="Salif, Mehmed, salifm, programmer, developer, coder" />
     <meta name="robots" content="index, follow" />
@@ -26,4 +25,4 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>

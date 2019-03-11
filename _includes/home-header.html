@@ -3,16 +3,15 @@
 {% else %}
   {% assign icon_color = "#24292e" %}
 {% endif %}
-{% assign content = page.content | strip_newlines %}
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  class="height-full">
   <head>
     <meta charset="utf-8" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css" />
+    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css" />
     <link rel="author" href="https://salifm.github.io/humans.txt" />
     <meta name="description" content="Salif Mehmed - 19 years old boy. Love Java and Linux" />
     <meta name="keywords" content="salifm, programmer, developer, coder, Салиф Мехмед, програмист, spql-lang" />
@@ -55,4 +54,5 @@
       }
     </script>
   </head>
-  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  
