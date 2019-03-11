@@ -3,10 +3,11 @@
 {% else %}
   {% assign icon_color = "#24292e" %}
 {% endif %}
+{% assign content = page.content %}
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
 <!DOCTYPE html>
-<html lang="en"  class="height-full">
+<html lang="en" class="height-full">
   <head>
     <meta charset="utf-8" />
     <title>{{ user.name }}</title>
@@ -54,5 +55,5 @@
       }
     </script>
   </head>
-  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
   

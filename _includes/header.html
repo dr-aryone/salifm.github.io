@@ -3,6 +3,7 @@
 {% else %}
   {% assign icon_color = "#24292e" %}
 {% endif %}
+{% assign content = page.content %}
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
 <!DOCTYPE html>
@@ -25,4 +26,4 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
