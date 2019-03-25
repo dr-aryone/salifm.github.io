@@ -29,14 +29,11 @@ projects:
       - Bulogos
 
 social_media:
-  # behance: your_username
-  # dribbble: your_username
   facebook: salif.mehmed
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
+  hackerrank: salifm
   twitter: SalifMehmed
   youtube: channel/UCRqcpqHEwDIY_VotmhQpoeQ
+  instagram: salif.mehmed
 
 topics:
   - name: Java

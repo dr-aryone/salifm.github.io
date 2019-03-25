@@ -6,8 +6,15 @@
 {% assign content = page.content %}
 {% assign posts_total = site.posts | size %}
 {% assign user = site.github.owner %}
+{% if page.path contains '_posts' %}
+  {% assign page_title = page.title %}
+  {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% else %}
+  {% assign page_title = user.name %}
+  {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% endif %}
 <!DOCTYPE html>
-<html lang="{{ page.language }}" class="height-full">
+<html lang="{{ page.language }}" class="min-height-full">
   <head>
     <meta charset="utf-8" />
     <title>{{ user.name }}</title>
@@ -17,6 +24,9 @@
     <meta name="keywords" content="Salif, Mehmed, salifm, programmer, developer, coder" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Salif Mehmed" />
+    <meta property="og:title" content="{{ user.name }}" />
+    <meta property="og:image" content="{{ user.avatar_url }}" />
+    <meta property="og:description" content="{{ meta_description }}" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,4 +36,4 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
