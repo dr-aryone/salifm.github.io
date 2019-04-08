@@ -24,9 +24,9 @@ projects:
   #   - stars
   limit: 18
   exclude:
-    forks: false
+    forks: true
     projects:
-      - Bulogos
+    # - repo-name
 
 social_media:
   facebook: salif.mehmed
