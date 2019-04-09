@@ -24,7 +24,7 @@ projects:
   #   - stars
   limit: 18
   exclude:
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
