@@ -1,10 +1,10 @@
 /* TEAM */
 	Developer: Salif Mehmed
 	Site: https://salifm.github.io/
-	Twitter: @SalifMehmed
+	Twitter: @_salifm
 	From: Bulgaria
 
 /* SITE */
 	Language: English
 	Doctype: HTML5
-	IDE: Notepad++, VS Code, Vim
+	IDE: VS Code, Notepad++, Vim
