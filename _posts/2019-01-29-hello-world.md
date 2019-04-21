@@ -2,7 +2,7 @@
 title: "Welcome!"
 language: en
 description: Hello, World
-comments: false
+comments: true
 ---
 
 **Hello world**, this is my first blog post.
